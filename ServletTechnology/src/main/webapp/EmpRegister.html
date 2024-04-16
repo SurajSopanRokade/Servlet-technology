@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>Employee Register</h3>
+	<form action="empreg" method="post">
+		<table style="border: 2px solid;">
+			<tr>
+				<td>Name</td>
+				<td><input type="text" name="empname"></td>
+			</tr>
+			<tr>
+				<td>Salary</td>
+				<td><input type="text" name="salary"></td>
+			</tr>
+			<tr>
+				<td colspan="4"><label>Select Language:</label></td>
+        		<td><input type="checkbox" name="lang" value="java" id="java"></td>
+        		<td><label for="java">Java</label></td>
+        		<td><input type="checkbox" name="lang" value="python" id="python"></td>
+        		<td><label for="python">Python</label></td>
+        		<td><input type="checkbox" name="lang" value="javascript" id="javascript"></td>
+        		<td><label for="javascript">JavaScript</label></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td><input type="radio" name="gender" value="male">Male</td>
+				<td><input type="radio" name="gender" value="female">Female</td>
+			</tr>
+			<tr>
+				<button type="submit">Save</button>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
